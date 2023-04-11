@@ -1,0 +1,57 @@
+# EESchema Netlist Version 1.1 created  23/02/2012 18:19:53
+(
+ ( /4F466F60 $noname  J2 AD {Lib=CONN_6}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 /AD4/SDA )
+  (    6 /AD5/SCL )
+ )
+ ( /4F466F57 $noname  J1 POWER {Lib=CONN_8}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 +3.3V )
+  (    5 +5V )
+  (    6 GND )
+  (    7 GND )
+  (    8 ? )
+ )
+ ( /4F466F53 $noname  J3 IOL {Lib=CONN_8}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+ )
+ ( /4F466F47 $noname  J4 IOH {Lib=CONN_10}
+  (    1 /AD5/SCL )
+  (    2 /AD4/SDA )
+  (    3 ? )
+  (    4 GND )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ J1 6
+ J1 7
+ J4 4
+Net 26 "/AD5/SCL" "AD5/SCL"
+ J2 6
+ J4 1
+Net 27 "/AD4/SDA" "AD4/SDA"
+ J2 5
+ J4 2
+}
+#End
